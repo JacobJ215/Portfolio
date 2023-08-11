@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob Johnson - Data Science Projects</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li> <!-- Link to the Projects page -->
+                <li><a href="resume.html" target="_blank">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Projects by Type -->
+    <section id="projects">
+
+        <!-- Computer Vision Projects -->
+        <h3>Computer Vision Projects</h3>
+
+        <!-- Project Container -->
+        <div class="project-container">
+            <!-- Project Box -->
+            <div class="project-box">
+                <!-- Project Title and Description -->
+                <div class="project-details">
+                    <h3 class="project-title"><a href="https://jacobj215.github.io/YOLO-NAS-OCR-WebApp/" target="_blank">YOLO-NAS & EasyOCR Automatic Number Plate Recognition</a></h3>
+                    <p class="project-description">
+                        This project uses YOLO-NAS and EasyOCR to detect license plates and perform Optical Character Recognition (OCR) on them. 
+                        The project includes both image and video processing capabilities and has been deployed as a Streamlit web application. 
+                        This is an update to a previous project, <a href="https://jacobj215.github.io/Optical-Character-Recognition-WebApp/" target="_blank">Optical-Character-Recognition-WebApp</a>
+                    </p>
+                <!-- Project Image -->
+                <img src="img/streamlit_demo.gif" alt="Project 1" class="project-image">
+                </div>
+            </div>
+        </div>
+        <!-- Project Container -->
+        <div class="project-container">
+            <!-- Project Box -->
+            <div class="project-box">
+                <!-- Project Title and Description -->
+                <div class="project-details">
+                    <h3 class="project-title"><a href="https://jacobj215.github.io/YOLO-NAS-OCR-WebApp/" target="_blank">YOLO-NAS & EasyOCR Automatic Number Plate Recognition</a></h3>
+                    <p class="project-description">
+                        Object Detection project created to detect face masks using YOLOv7 trained on a custom dataset. All 853 images were manually annotated using labelimg, 
+                        two labels were used to classify the images, “Mask” and “No Mask”. The training was performed over 300 epochs and a batch size of 8 using google colab in the YOLOv7 Training.ipynb file.
+                    </p>
+                <!-- Project Image -->
+                <img src="img/face-mask.gif" alt="Project 2" class="project-image">
+                </div>
+            </div>
+        </div>
+        <!-- Add more Computer Vision projects here -->
+    </section>
+
+    <footer>
+        <p>Contact me at: jacob.johnson2718@gmail.com</p>
+    </footer>
+</body>
+</html>

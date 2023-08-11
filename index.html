@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob Johnson - Data Scientist Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="projects.html">Projects</a></li> <!-- Link to the Projects page -->
+                <li><a href="resume.html" target="_blank">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="profile-container">
+            <img class="profile-image" src="img/Profile.png" alt="Jacob Johnson - Data Scientist" />
+        </div>
+        <h1>Jacob Johnson</h1>
+        <p>Data Scientist | NLP Enthusiast | Computer Vision Explorer</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/jacobj2718/" target="_blank"><img src="img/linkedin-logo.png" alt="LinkedIn" class="social-icon"></a>
+            <a href="https://github.com/JacobJ215" target="_blank"><img src="img/github-logo.png" alt="GitHub" class="social-icon"></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            As a seasoned data analyst, I've honed my skills in extracting valuable insights from complex datasets, and I'm passionate about transforming data into actionable knowledge. My journey has solidified my commitment to data-driven decision-making.
+
+            Now, I'm eager to embrace the next challenge by transitioning into the dynamic field of Data Science and Machine Learning. I aim to leverage advanced analytics, predictive modeling, and AI technologies to uncover deeper insights from data.
+    
+            This portfolio showcases projects reflecting my diverse skill set, from Natural Language Processing (NLP) to Computer Vision. I'm excited about this phase in my career, where my experience as a data analyst forms a strong foundation for my journey into Data Science. I'm ready to contribute my skills and explore new horizons in the world of data.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Highlighted Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <a href="https://jacobj215.github.io/Churn-Analysis-and-Prediction/" target="_blank">
+                    <img src="img/telecom_churn.png" alt="Telecom Churn Analysis and Prediction" />
+                </a>
+                <h3>Telecom Churn Analysis and Prediction</h3>
+                <p>
+                    This repository contains the code for analyzing telecom churn rate. The aim of this project is to predict whether a 
+                    customer will churn or not based on various features. In this project, we analyzed the telecom churn rate using various machine learning algorithms. 
+                    The best-performing model was XGBoost with an accuracy of 81.92%. We also performed SHAP analysis to interpret the XGBoost model and found
+                    that MonthlyCharges, Tenure, and InternetService_Fiber optic were the most important features in predicting churn. <a href="https://public.tableau.com/views/ChurnDashboard_16836452983320/ChurnDashboard?:showVizHome=no"target="_blank">Tableau Dashboard</a>
+                </p>
+            </div>
+            <div class="project">
+                <a href="https://jacobj215.github.io/YOLO-NAS-OCR-WebApp/" target="_blank">
+                    <img src="img/streamlit_demo.gif" alt="YOLO-NAS & EasyOCR Automatic Number Plate Recognition" />
+                </a>
+                <h3>YOLO-NAS & EasyOCR Automatic Number Plate Recognition</h3>
+                <p>
+                    This project uses YOLO-NAS and EasyOCR to detect license plates and perform Optical Character Recognition (OCR) on them. 
+                    The project includes both image and video processing capabilities and has been deployed as a Streamlit web application. 
+                    This is an update to a previous project, <a href="https://jacobj215.github.io/Optical-Character-Recognition-WebApp/" target="_blank">Optical-Character-Recognition-WebApp</a>
+                </p>
+            </div>
+            <div class="project">
+                <a href="https://jacobj215.github.io/Credit-Card-Default/" target="_blank">
+                    <img src="img/credit-card-risk.png" alt="Credit Card Default Web App" />
+                </a>    
+                <h3>Credit Card Default Web App</h3>
+                <p>
+                    This project was created to predict credit card defaults based on customer profiles, achieving a high ROC AUC score of 0.7882 The model analyzes 
+                    borrower information, such as age, income, and financial indicators, to identify customers at risk of defaulting. 
+                    This project also contains a streamlit web app capable of making predictions given a customer profile. <a href="https://jacobj215-credit-card-default-app-3ruasg.streamlit.app/">Steamlit App</a>
+                </p>
+            </div>
+            <div class="project">
+                <a href="https://github.com/JacobJ215/YOLOv7_Face_Mask_Detection" target="_blank">
+                    <img src="img/face-mask.gif" alt="Face Mask Detection YOLOv7" />
+                </a>
+                <h3>Face Mask Detection YOLov7</h3>
+                <p>
+                    Object Detection project created to detect face masks using YOLOv7 trained on a custom dataset. All 853 images were manually annotated using labelimg, 
+                    two labels were used to classify the images, “Mask” and “No Mask”. The training was performed over 300 epochs and a batch size of 8 using google colab in the YOLOv7 Training.ipynb file.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <h3>Data Analysis</h3>
+            <p>Skilled in data analysis, statistical modeling, data visualization, and designing insightful dashboards to drive data-informed decisions.</p>
+            <div class="toolbox">
+                <div class="tool">Tableau</div>
+                <div class="tool">PowerBI</div>
+                <div class="tool">SQL</div>
+                <div class="tool">Pandas</div>
+                <div class="tool">NumPy</div>
+                <div class="tool">Matplotlib</div>
+                <div class="tool">Seaborn</div>
+                <div class="tool">Plotly</div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>Machine Learning</h3>
+            <p>Proficient in building and deploying machine learning models for predictive analytics and pattern recognition.</p>
+            <div class="toolbox">
+                <div class="tool">Scikit-Learn</div>
+                <div class="tool">XGBoost</div>
+                <div class="tool">Azure</div>
+                <div class="tool">Sagemaker</div>
+                <div class="tool">MLFlow</div>
+                <div class="tool">Pycaret</div>
+                <div class="tool">Dagshub</div>
+                <div class="tool">DVC</div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>Natural Language Processing (NLP)</h3>
+            <p>Proficient in using NLP techniques for text processing, sentiment analysis, and large language modeling.</p>
+            <div class="toolbox">
+                <div class="tool">NLTK</div>
+                <div class="tool">spaCy</div>
+                <div class="tool">Huggingface LLMs</div>
+                <div class="tool">Langchain</div>
+                <div class="tool">OpenAI API</div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>Computer Vision</h3>
+            <p>Experience with deep learning frameworks for image recognition, object detection, image segmentation and image generation.</p>
+            <div class="toolbox">
+                <div class="tool">TensorFlow</div>
+                <div class="tool">OpenCV</div>
+                <div class="tool">PyTorch</div>
+                <div class="tool">YOLO</div>
+                <div class="tool">Roboflow</div>
+            </div>
+        </div>
+        <!-- Add more skills here -->
+    </section>
+
+
+
+    <!-- Interests Section -->
+    <section id="interests">
+        <h2>Areas of Interest</h2>
+        <ul>
+            <li>Natural Language Processing (NLP)</li>
+            <li>Computer Vision</li>
+            <li>Robotics</li>
+            <li>Data Analytics</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Contact me at: jacob.johnson2718@gmail.com</p>
+        <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Ruslan Babkin - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Ruslan Babkin - Flaticon</a>
+    </footer>
+</body>
+</html>
