@@ -68,6 +68,26 @@ nav ul li a {
     /* Additional styling here (margin, color, etc.) */
 }
 
+/* Style for the social icons */
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    margin: 0 10px; /* Add some spacing between the icons */
+    opacity: 0.8;
+}
+
+/* Add a hover effect to the social icons */
+.social-icon:hover {
+    opacity: 1;
+}
+
+
 
 /* Footer styles */
 footer {
