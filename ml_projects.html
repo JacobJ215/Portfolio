@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob Johnson - Data Science Projects</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ml_projects.html">Machine Learning</a></li>
+                <li><a href="cv_projects.html">Computer Vision</a></li>
+                <li><a href="nlp_projects.html">NLP</a></li>
+                <li><a href="resume.html" target="_blank">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Projects by Type -->
+    <section id="projects">
+
+        <!-- Computer Vision Projects -->
+        <h3>Classical Machine Learning Projects</h3>
+
+        <!-- Project Container -->
+        <div class="project-container">
+            <!-- Project Box -->
+            <div class="project-box">
+                <!-- Project Title and Description -->
+                <div class="project-details">
+                    <h3 class="project-title"><a href="https://jacobj215.github.io/Churn-Analysis-and-Prediction/" target="_blank">Telecom Churn Analysis and Prediction</a></h3>
+                    <p class="project-description">
+                        Thhis repository contains the code for analyzing telecom churn rate. The aim of this project is to predict whether a 
+                        customer will churn or not based on various features. In this project, we analyzed the telecom churn rate using various machine learning algorithms. 
+                        The best-performing model was XGBoost with an accuracy of 81.92%. We also performed SHAP analysis to interpret the XGBoost model and found
+                        that MonthlyCharges, Tenure, and InternetService_Fiber optic were the most important features in predicting churn. <a href="https://public.tableau.com/views/ChurnDashboard_16836452983320/ChurnDashboard?:showVizHome=no"target="_blank">Tableau Dashboard</a>
+                    </p>
+                <!-- Project Image -->
+                <img src="img/telecom_churn.png" alt="Project 1" class="project-image">
+                </div>
+            </div>
+        </div>
+        <!-- Project Container -->
+        <div class="project-container">
+            <!-- Project Box -->
+            <div class="project-box">
+                <!-- Project Title and Description -->
+                <div class="project-details">
+                    <h3 class="project-title"><a href="https://jacobj215.github.io/Credit-Card-Default/"target="_blank">Credit Card Default Web App</a></h3>
+                    <p class="project-description">
+                        This project was created to predict credit card defaults based on customer profiles, achieving a high ROC AUC score of 0.7882 The model analyzes 
+                    borrower information, such as age, income, and financial indicators, to identify customers at risk of defaulting. 
+                    This project also contains a streamlit web app capable of making predictions given a customer profile. <a href="https://jacobj215-credit-card-default-app-3ruasg.streamlit.app/">Steamlit App</a>
+                    </p>
+                <!-- Project Image -->
+                <img src="img/credit-card-risk.png" alt="Project 2" class="project-image">
+                </div>
+            </div>
+        </div>
+        <!-- Project Container -->
+        <div class="project-container">
+            <!-- Project Box -->
+            <div class="project-box">
+                <!-- Project Title and Description -->
+                <div class="project-details">
+                    <h3 class="project-title"><a href="https://github.com/JacobJ215/Allstate-Claims-Severity/"target="_blank">Allstate-Claims-Severity</a></h3>
+                    <p class="project-description">
+                        This repository features code for the Allstate Claims Severity Kaggle competition, utilizing Python, primarily XGBoost, and
+                         LightGBM for predicting insurance claim losses. Through preprocessing and hyperparameter tuning, LightGBM attains the 
+                         best validation MAE of 0.4157, selected for test dataset predictions and competition submission.
+                    </p>
+                </div>
+            </div>
+        </div>      
+    </section>
+
+    <footer>
+        <p>Contact me at: jacob.johnson2718@gmail.com</p>
+                <div class="social-icons">
+            <a href="https://www.linkedin.com/in/jacobj2718/" target="_blank"><img src="img/linkedin-logo.png" alt="LinkedIn" class="social-icon"></a>
+            <a href="https://github.com/JacobJ215" target="_blank"><img src="img/github-logo.png" alt="GitHub" class="social-icon"></a>
+        </div>
+    </footer>
+</body>
+</html>
