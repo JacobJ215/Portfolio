@@ -165,7 +165,6 @@ nav ul li a {
     display: flex;
     flex-wrap: wrap; /* Allow projects to wrap onto a new line */
     justify-content: space-between;
-    overflow-x: auto; /* Enable horizontal scrolling if necessary */
 }
 
 .project {
