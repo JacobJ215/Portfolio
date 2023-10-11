@@ -163,7 +163,7 @@ nav ul li a {
 
 .project-container {
     display: flex;
-    flex-wrap: nowrap; /* Display projects in a single row */
+    flex-wrap: wrap; /* Allow projects to wrap onto a new line */
     justify-content: space-between;
     overflow-x: auto; /* Enable horizontal scrolling if necessary */
 }
@@ -176,6 +176,7 @@ nav ul li a {
     box-sizing: border-box;
     text-align: center;
 }
+
 
 .project img {
     max-width: 100%;
